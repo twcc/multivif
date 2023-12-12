@@ -1,0 +1,43 @@
+network:
+    ethernets:
+        ens3:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 99
+        ens4:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 104
+        ens5:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 105
+        ens6:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 106
+        ens7:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 107
+        ens8:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 108
+        ens9:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 109
+        ens10:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 110
+        ens11:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 111
+        ens12:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 112
+    version: 2
