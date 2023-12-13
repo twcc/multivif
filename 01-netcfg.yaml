@@ -1,9 +1,5 @@
 network:
     ethernets:
-        ens3:
-            dhcp4: true
-            dhcp4-overrides:
-                route-metric: 99
         ens4:
             dhcp4: true
             dhcp4-overrides:
